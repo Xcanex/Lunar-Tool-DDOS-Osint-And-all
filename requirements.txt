@@ -1,0 +1,24 @@
+# ══════════════════════════════════════════════════════════════
+#  Lunar Tool v3.5 - Requirements
+#  Python 3.10+ oneriliyor
+# ══════════════════════════════════════════════════════════════
+
+# -- Temel Kutuphane --
+rich>=13.0.0              # Terminal UI, renkler, tablolar, paneller
+requests>=2.31.0          # HTTP istekleri (API, webhook, scanner)
+
+# -- Sistem & Ag --
+psutil>=5.9.0             # Sistem ve ag izleme (Network Analyzer, System Info)
+
+# -- Goruntu & QR --
+Pillow>=10.0.0            # Goruntu isleme (EXIF, Screenshot, Steganography)
+qrcode>=7.4               # QR kod uretici
+
+# -- OSINT & Ekstra (Eksikler) --
+python-whois>=0.9.0       # WHOIS sorgulari
+phonenumbers>=8.13.0      # Telefon no analizi
+dnspython>=2.4.0          # DNS sorgulari
+faker>=20.1.0             # Fake info uretici
+
+# -- Opsiyonel (Virus Builder EXE ciktisi icin) --
+# pyinstaller>=6.12.0     # Python -> EXE donusturme (isteyen acabilir)
